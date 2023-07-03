@@ -1,6 +1,6 @@
 import React from "react";
 const Card =() => {
-    const cardtext = [
+    const Cardtext = [
         {
             text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident" 
         },
@@ -20,11 +20,11 @@ const Card =() => {
     
 	const renderCard = (Card, index) => { return(
    
-        <div key={index} className="card d-flex m-3">
-        <img className="card-img-top" src='http://via.placeholder.com/500x325.jpg'alt="Card image cap" />
-        <div className="card-body">
-            <h5 className="card-title">Card Title</h5>
-            <p className="card-text">{Card.text}</p>
+        <div key={index} className="Card d-flex m-3">
+        <img className="Card-img-top" src='http://via.placeholder.com/500x325.jpg'alt="Card image cap" />
+        <div className="Card-body">
+            <h5 className="Card-title">Card Title</h5>
+            <p className="Card-text">{Card.text}</p>
         </div>
         <div className="card-footer">
         <a href="" className="btn btn-primary">
