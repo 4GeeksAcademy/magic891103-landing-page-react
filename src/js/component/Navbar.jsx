@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Navbar = () => {
-  const NavbarStyle = {
+  const navbarStyle = {
     backgroundColor: '#696969',
   };
 
   return (
-    <nav className="navbar navbar-expand-lg" style={NavbarStyle}>
+    <nav className="navbar navbar-expand-lg" style={navbarStyle}>
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="#">
           Start Bootstrap

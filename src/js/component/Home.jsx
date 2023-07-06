@@ -1,11 +1,14 @@
 import React from "react";
+
+//include images into your bundle
+//import rigoImage from "../../img/rigo-baby.jpg";
 import Footer from "./Footer";
 import Card from "./Card";
 import Jumbotron from "./Jumbotron";
 import Navbar from "./Navbar";
-//create your first component
 
-const home = () => {
+
+const Home = () => {
 	return (
 		<div className="text-center">
 			< Navbar/>
@@ -17,4 +20,4 @@ const home = () => {
 		</div>
 	);
 };
-export default home;
+export default Home;
